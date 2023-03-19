@@ -53,7 +53,7 @@
   
           .content-header {
             background: url("../../assets/bg-tab.png") center center no-repeat;
-            width: 335px;
+            width: 315px;
             margin-top: 60px;
             background-size: contain;
             background-repeat: no-repeat;
@@ -74,7 +74,7 @@
               align-items: center;
               position: relative;
               input {
-                  width: 265px;
+                  width: 245px;
                   height: 46px !important;
                   padding: 0px 10px;
                   border: none;
@@ -93,12 +93,12 @@
         .captcha {
             .input {
                 input {
-                    width: 150px;
+                    width: 140px;
                     border-radius: 0;
                 }
             }
             .bg-captcha {
-                width: 115px;
+                width: 105px;
                 height: 46px;
                 background-color: gray;
                 font-weight: 600;
@@ -161,4 +161,91 @@
     }
   }
   }
+  @media (max-width: 408px) {
+    .container-login {
+     
+      .container-content {
+        .icon-chat {
+        
+        }
+        .header-form {
+          .logo {
+            
+            img {
+             
+            }
+          }
+          .slogan {
+          
+            img {
+          
+            }
+          }
+        }
+        .container-form {
+        
+          .header-tab {
+           
+            .content-header {
+              width: 296px;
+            }
+          }
+          .field {
+          
+            .input {
+                input {
+                    width: 225px;
+                    height: 46px !important;
+                    padding: 0px 10px;
+                    border: none;
+                    outline: none;
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                }
+                i {
+                    position: absolute;
+                    right: 20px;
+                    top: 15px;
+                    cursor: pointer;
+                }
+            }
+          }
+          .captcha {
+              .input {
+                  input {
+                      width: 130px;
+                      border-radius: 0;
+                  }
+              }
+              .bg-captcha {
+                  width: 95px;
+                  height: 46px;
+                  background-color: gray;
+                  font-weight: 600;
+                  border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 18px;
   
+              }
+          }
+          .field-btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            .img {
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 335px;;
+                }
+            }
+          }
+       
+      }
+      
+    }
+  }
+  }
