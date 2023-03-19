@@ -1,129 +1,132 @@
 .container-login {
-    background: url("../../assets/bg-mobile.jpg");
-    width: 100vw;
-    height: 100vh;
-    // background-position: center center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    .container-content {
-      .icon-chat {
-        position: absolute;
-        right: 0px;
-        top: 20px;
-        cursor: pointer;
-        background: url("../../assets/icon-livechat.png") no-repeat;
-        background-size: 100%;
-        width: 90px;
-        height: 90px;
-      }
-      .header-form {
-        .logo {
-          display: flex;
-          justify-content: center;
-          img {
-            width: 120px;
-            height: 108px;
-          }
-        }
-        .slogan {
-          display: flex;
-          justify-content: center;
-  
-          margin-bottom: -35px;
-  
-          img {
-            width: 365px;
-            height: 51px;
-          }
+  background: url("../../assets/bg-mobile.jpg");
+  width: 100vw;
+  height: 100vh;
+  // background-position: center center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  .container-content {
+    .icon-chat {
+      position: absolute;
+      right: 0px;
+      top: 20px;
+      cursor: pointer;
+      background: url("../../assets/icon-livechat.png") no-repeat;
+      background-size: 100%;
+      width: 90px;
+      height: 90px;
+    }
+    .header-form {
+      .logo {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 120px;
+          height: 108px;
         }
       }
-      .container-form {
-        background: url("../../assets/bg-form.png") top center/116% 101% no-repeat;
-        width: 100vw;
-        height: 400px;
-        // background-position: center center;
-        // background-size: cover;
-        // background-repeat: no-repeat;
-        .header-tab {
-          display: flex;
-          justify-content: center;
-  
-          .content-header {
-            background: url("../../assets/bg-tab.png") center center no-repeat;
-            width: 315px;
-            margin-top: 60px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        }
-        .field {
-          display: flex;
-          align-items: flex-start;
-          justify-content: center;
-          margin-top: 5px;
-          margin-bottom: 5px;
-          .input {
-              display: flex;
-              align-items: center;
-              position: relative;
-              input {
-                  width: 245px;
-                  height: 46px !important;
-                  padding: 0px 10px;
-                  border: none;
-                  outline: none;
-                  border-top-right-radius: 20px;
-                  border-bottom-right-radius: 20px;
-              }
-              i {
-                  position: absolute;
-                  right: 20px;
-                  top: 15px;
-                  cursor: pointer;
-              }
-          }
-        }
-        .captcha {
-            .input {
-                input {
-                    width: 140px;
-                    border-radius: 0;
-                }
-            }
-            .bg-captcha {
-                width: 105px;
-                height: 46px;
-                background-color: gray;
-                font-weight: 600;
-                border-top-right-radius: 20px;
-                  border-bottom-right-radius: 20px;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  font-size: 18px;
+      .slogan {
+        display: flex;
+        justify-content: center;
 
-            }
+        margin-bottom: -35px;
+
+        img {
+          width: 365px;
+          height: 51px;
         }
-        .field-btn {
+      }
+    }
+    .container-form {
+      background: url("../../assets/bg-form.png") top center/116% 101% no-repeat;
+      width: 100vw;
+      height: 400px;
+      // background-position: center center;
+      // background-size: cover;
+      // background-repeat: no-repeat;
+      .header-tab {
+        display: flex;
+        justify-content: center;
+
+        .content-header {
+          background: url("../../assets/bg-tab.png") center center no-repeat;
+          width: 295px;
+          margin-top: 60px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: 100%;
           display: flex;
           justify-content: center;
-          margin-top: 20px;
-          .img {
-              display: flex;
-              justify-content: center;
-              img {
-                  width: 335px;;
-              }
+          align-items: center;
+          
+        }
+
+
+      }
+      .field {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        .input {
+          display: flex;
+          align-items: center;
+          position: relative;
+          input {
+            width: 225px;
+            height: 46px !important;
+            padding: 0px 10px;
+            border: none;
+            outline: none;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+          }
+          i {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            cursor: pointer;
           }
         }
-     
+      }
+      .captcha {
+        .input {
+          input {
+            width: 130px;
+            border-radius: 0;
+          }
+        }
+        .bg-captcha {
+          width: 95px;
+          height: 46px;
+          background-color: gray;
+          font-weight: 600;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+        }
+
+        
+      }
+      .field-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .img {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 335px;
+          }
+        }
+      }
     }
     .see-more {
       display: flex;
@@ -136,11 +139,12 @@
       display: flex;
       justify-content: center;
       img {
-          width: 315px;
+        width: 315px;
       }
     }
     .text {
-      text-shadow: red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px;
+      text-shadow: red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px,
+        red 0 0 4px, red 0 0 4px;
       color: #fff;
       text-align: center;
       font-size: 11px;
@@ -149,103 +153,15 @@
       display: flex;
       justify-content: center;
       img {
-          width: 226px;
+        width: 226px;
       }
     }
     .btn-1111 {
       display: flex;
       justify-content: center;
       img {
-          width: 255px;
+        width: 255px;
       }
     }
   }
-  }
-  @media (max-width: 408px) {
-    .container-login {
-     
-      .container-content {
-        .icon-chat {
-        
-        }
-        .header-form {
-          .logo {
-            
-            img {
-             
-            }
-          }
-          .slogan {
-          
-            img {
-          
-            }
-          }
-        }
-        .container-form {
-        
-          .header-tab {
-           
-            .content-header {
-              width: 296px;
-            }
-          }
-          .field {
-          
-            .input {
-                input {
-                    width: 225px;
-                    height: 46px !important;
-                    padding: 0px 10px;
-                    border: none;
-                    outline: none;
-                    border-top-right-radius: 20px;
-                    border-bottom-right-radius: 20px;
-                }
-                i {
-                    position: absolute;
-                    right: 20px;
-                    top: 15px;
-                    cursor: pointer;
-                }
-            }
-          }
-          .captcha {
-              .input {
-                  input {
-                      width: 130px;
-                      border-radius: 0;
-                  }
-              }
-              .bg-captcha {
-                  width: 95px;
-                  height: 46px;
-                  background-color: gray;
-                  font-weight: 600;
-                  border-top-right-radius: 20px;
-                    border-bottom-right-radius: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 18px;
-  
-              }
-          }
-          .field-btn {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-            .img {
-                display: flex;
-                justify-content: center;
-                img {
-                    width: 335px;;
-                }
-            }
-          }
-       
-      }
-      
-    }
-  }
-  }
+}
