@@ -1,69 +1,70 @@
 .container-login {
-    background: url("../../assets/bg-mobile.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-position: center center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    .container-content {
-      .icon-chat {
-        position: absolute;
-        right: 0px;
-        top: 20px;
-        cursor: pointer;
-        background: url("../../assets/icon-livechat.png") no-repeat;
-        background-size: 100%;
-        width: 90px;
-        height: 90px;
-      }
-      .header-form {
-        .logo {
-          display: flex;
-          justify-content: center;
-          img {
-            width: 120px;
-            height: 108px;
-          }
-        }
-        .slogan {
-          display: flex;
-          justify-content: center;
-  
-          margin-bottom: -35px;
-  
-          img {
-            width: 365px;
-            height: 51px;
-          }
-        }
-      }
-      .container-form {
-        background: url("../../assets/bg-thank.png") ;
-        width: 100vw;
-        height: 400px;
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        // margin-top: 150px;
+  background: url("../../assets/bg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  overflow: auto;
+  padding-bottom: 50px;
+  .container-content {
+    .icon-chat {
+      position: absolute;
+      right: 0px;
+      top: 20px;
+      cursor: pointer;
+      background: url("../../assets/icon-livechat.png") no-repeat;
+      background-size: 100%;
+      width: 90px;
+      height: 90px;
+    }
+    .header-form {
+      .logo {
         display: flex;
         justify-content: center;
-        align-items: center;
-        .content-form {
-            margin-top: 50px;
-            color: #fff;
-            .title {
-                text-transform: uppercase;
-                text-align: center;
-                color: #ffe854;
-                font-size: 20px;
-                font-weight: 600;
-            }
-
+        img {
+          width: 120px;
+          height: 108px;
         }
+      }
+      .slogan {
+        display: flex;
+        justify-content: center;
 
+        margin-bottom: -35px;
+
+        img {
+          width: 365px;
+          height: 51px;
+        }
+      }
+    }
+    .container-form {
+      background: url("../../assets/bg-thank.png");
+      width: 100vw;
+      height: 400px;
+      max-width: 500px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      // margin-top: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .content-form {
+        margin-top: 50px;
+        color: #fff;
+        .title {
+          text-transform: uppercase;
+          text-align: center;
+          color: #ffe854;
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
     }
     .see-more {
       display: flex;
@@ -76,11 +77,12 @@
       display: flex;
       justify-content: center;
       img {
-          width: 315px;
+        width: 315px;
       }
     }
     .text {
-      text-shadow: red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px;
+      text-shadow: red 0 0 4px, red 0 0 4px, red 0 0 4px, red 0 0 4px,
+        red 0 0 4px, red 0 0 4px;
       color: #fff;
       text-align: center;
       font-size: 11px;
@@ -89,16 +91,20 @@
       display: flex;
       justify-content: center;
       img {
-          width: 226px;
+        width: 226px;
       }
     }
     .btn-1111 {
       display: flex;
       justify-content: center;
       img {
-          width: 255px;
+        width: 255px;
       }
     }
   }
+  @media (max-width: 768px) {
+    background: url("../../assets/bg-mobile.jpg");
+    background-size: unset;
+    background-repeat: unset;
   }
-  
+}
